@@ -62,7 +62,7 @@ public class BOJ_13549 {
 
         }
     }
-    
+
     static class Node {
         int x, xCnt;
 
