@@ -2,7 +2,6 @@ package Algo.Dijkstra;
 
 import java.util.*;
 import java.io.*;
-
 public class BOJ_1238 {
     static class Town implements Comparable<Town> {
         int to;
