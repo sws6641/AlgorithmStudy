@@ -16,20 +16,13 @@ public class BOJ_2225 {
 
         for(int i = 1 ; i < 201 ; i++){
             dp[i][1] = 1;
-            dp[1][i] = dp[1][i-1] +1;
+            dp[1][i] = i;
         }
 
         for(int i = 2 ; i < 201 ; i++){
             for(int j = 2 ; j < 201 ; j++){
                 dp[i][j] = (dp[i-1][j] + dp[i][j-1]) % 1_000_000_000;
             }
-        }
-
-        for(int i = 1 ; i < 201 ; i++){
-            for(int j = 1 ; j < 201 ; j++){
-                System.out.print(dp[i][j] + " ");
-            }
-            System.out.println();
         }
 
         System.out.println(dp[n][m]);
