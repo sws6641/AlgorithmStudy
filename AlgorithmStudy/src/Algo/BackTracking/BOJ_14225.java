@@ -40,7 +40,6 @@ public class BOJ_14225 {
 
         fun(cnt + 1, sum);
         fun(cnt + 1, sum + arr[cnt]);
-        git
 
     }
 }
