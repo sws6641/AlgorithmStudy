@@ -41,10 +41,9 @@ public class PGR_77485 {
                 }
                 arr[x1][y1 + 1] = tmp;
                 min = Math.min(min, tmp);
-
                 answer[i] = min;
             }
-            
+
             return answer;
         }
     }
