@@ -5,7 +5,7 @@ import java.util.*;
 public class PGR_43238 {
     class Solution {
         public long solution(int n, int[] times) {
-            long answer = 0;
+            long answer = 0; 
 
             Arrays.sort(times);
             int arrLen = times.length;
