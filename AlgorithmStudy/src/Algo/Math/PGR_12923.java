@@ -23,7 +23,7 @@ public class PGR_12923 {
                     answer[i - (int) begin] = 1;
                 }
             }
-            
+
             return answer;
         }
     }
