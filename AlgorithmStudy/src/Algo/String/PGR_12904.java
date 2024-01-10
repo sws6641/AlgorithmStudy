@@ -30,7 +30,6 @@ public class PGR_12904 {
                 }
                 answer = Math.max(tmp, answer);
             }
-
             return answer;
         }
     }
