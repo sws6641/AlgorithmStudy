@@ -5,7 +5,7 @@ import java.util.*;
 public class PGR_12946 {
     class Solution {
 
-        static List<int[]> list = new ArrayList<>();
+        List<int[]> list = new ArrayList<>();
 
         public int[][] solution(int n) {
 
@@ -19,7 +19,7 @@ public class PGR_12946 {
             return answer;
         }
 
-        public static void hanoi(int n, int start, int mid, int end){
+        public void hanoi(int n, int start, int mid, int end){
             if(n == 1){
                 list.add(new int[]{start, end});
                 return;
