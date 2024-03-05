@@ -5,7 +5,7 @@ import java.util.*;
 public class PGR_72413 {
     class Solution {
 
-        static class Node implements Comparable<Node> {
+        class Node implements Comparable<Node> {
             int to;
             int cost;
 
@@ -19,7 +19,7 @@ public class PGR_72413 {
             }
         }
 
-        static ArrayList<Node>[] arr;
+        ArrayList<Node>[] arr;
 
 
         public int solution(int n, int s, int a, int b, int[][] fares) {
