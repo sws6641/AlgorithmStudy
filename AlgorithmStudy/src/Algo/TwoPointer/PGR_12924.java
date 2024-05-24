@@ -23,7 +23,7 @@ public class PGR_12924 {
                     start++;
                 }
             }
-            
+
             return answer;
         }
     }
